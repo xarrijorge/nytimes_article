@@ -1,0 +1,46 @@
+/* Normalizer or CSS Resets*/
+
+
+
+/* Navbar */
+
+
+
+
+
+/* Main Section*/
+
+main{
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.article-section{
+   
+}
+
+article {
+    border:solid 1px;
+    width:60%;
+}
+.section-with-sidebar{
+    border:solid 1px;
+    display: flex;
+
+}
+aside {
+    border:solid 1px;
+    width:20%;
+}
+
+.ads{
+    background: rgb(214, 207, 207);
+    height: 50px;
+}
+.read-comments{
+    text-transform: uppercase;
+}
+
+/* Footere */
