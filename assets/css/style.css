@@ -3,7 +3,12 @@
 
 
 /* Navbar */
-
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 1px;
+}
 
 
 
@@ -16,7 +21,14 @@ main{
     flex-direction: column;
     
 }
+.menu-brand-left{
+    display: flex;
+}
 
+.menu-brand-left li{
+    list-style: none;
+    display: inline;
+}
 .article-section{
    
 }
@@ -48,6 +60,11 @@ aside {
 }
 .read-comments{
     text-transform: uppercase;
+}
+
+.article-image-video{
+    widows: 560px;
+    height:315;
 }
 
 /* Footere */
