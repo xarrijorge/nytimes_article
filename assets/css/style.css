@@ -91,11 +91,12 @@ footer ul {
     justify-content: space-around;
 }
 
-.subscribe ul{
-   
+.subscribe{
+   font-size:4px;
 }
 .inner-subscribe-links{
-    font-weight: 3;
+    font-weight:bold;
+    padding: 0;
 }
 .footer-copyright li{
     display: inline;
