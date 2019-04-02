@@ -7,7 +7,6 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: solid 1px;
 }
 
 
@@ -25,6 +24,9 @@ main{
     display: flex;
 }
 
+.nyc-brand-logo{
+
+}
 .menu-brand-left li{
     list-style: none;
     display: inline;
@@ -67,4 +69,35 @@ aside {
     height:315;
 }
 
-/* Footere */
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: column;
+   
+}
+footer ul {
+    list-style: none;
+}
+.footer-top-brand{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-copyright{
+    border-top: solid 1px;
+    display: flex;
+}
+.footer-navigations{
+    display: flex;
+    justify-content: space-around;
+}
+
+.subscribe ul{
+   
+}
+.inner-subscribe-links{
+    font-weight: 3;
+}
+.footer-copyright li{
+    display: inline;
+    padding: 5px;
+}
