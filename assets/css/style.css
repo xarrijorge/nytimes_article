@@ -15,9 +15,7 @@ nav{
 /* Main Section*/
 
 main{
-   
-    display: flex;
-    flex-direction: column;
+    width:100vw;
     
 }
 .menu-brand-left{
@@ -31,21 +29,39 @@ main{
     list-style: none;
     display: inline;
 }
-.article-section{
-   
+.first-section{
+  display: flex;
+  border: 2px solid red;
+  flex-direction: column;
+  align-items: center;
+}
+.first-section img{
+  position: relative;
+  min-width: 600px;
+  max-width: 1024px;
+  width: 60vw;
+  height: 70vh;
+ }
+.article-image-description{
+  margin: 0;
+  position: relative; 
+  color: #909090;
+}
+.article-details{
+  background: teal;
+}
+.text-column{
+  background: magenta;
 }
 
 article {
-    border:solid 1px;
     width:60%;
 }
 .section-with-sidebar{
-    border:solid 1px;
     display: flex;
 
 }
 aside {
-    border:solid 1px;
     width:20%;
 }
 .thumbnails {
@@ -83,7 +99,6 @@ footer ul {
     justify-content: space-between;
 }
 .footer-copyright{
-    border-top: solid 1px;
     display: flex;
 }
 .footer-navigations{
