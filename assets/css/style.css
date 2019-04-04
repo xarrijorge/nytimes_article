@@ -1,5 +1,9 @@
 /* Normalizer or CSS Resets*/
+* {
+    box-sizing: border-box;
+    margin: 0;
 
+}
 
 
 /* Navbar */
@@ -35,6 +39,7 @@ main{
   flex-direction: column;
   align-items: center;
 }
+
 .first-section img{
   position: relative;
   min-width: 600px;
@@ -54,27 +59,112 @@ main{
   background: magenta;
 }
 
-article {
-    width:60%;
-}
 .section-with-sidebar{
     display: flex;
+    border: solid 1px;
+    justify-content: center;
+}
+.inner-content{
+    margin: auto;
+    /* border:solid 1px; */
+    width:70%;
+}
+.content-in-section-sidebar{
+  /* border: solid 1px;
+  width: 80vw;   */
+}
+.all-sections{
+    width: 70%;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+.all-sections p{
+    line-height: 1.5em;
+    font-size:1.2em;
+    margin-top: 0.9em;
+    margin-left: 2em;
+    text-align: justify;
+}
+.side-menu {
+    width: 12vw;
+    margin: auto;
+    line-height: 1.3em;
+}
 
+.side-menu article{
+    padding: 0.4em;
+}
+.side-menu-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.side-menu a{
+    text-decoration: none;
+    color: rgba(136, 133, 133, 0.808);
+    
+}
+.side-menu-item h3{
+    font-size: 0.8rem;
+    line-height: 0.96em;
+    padding-left: 4px;
 }
 aside {
-    width:20%;
+
 }
 .thumbnails {
-    width: 120px;
-    height: 120px;
+    width: 50px;
+    height: 50px;
+   
 }
 .paid-post {
-    background: #c0b8b8;
+    background: #f8f5f5;
 }
 
+.iframe-external{
+    width: 60%;
+    margin: auto;
+    line-height: 1.4em;
+}
+.iframe-external p{
+    color: #909090;
+    font-size:0.9em;
+}
+.theory-section{
+    margin-top:4px;
+    margin-bottom: 3em;
+}
+figure{
+    width: 60%;
+    margin: auto;
+}
+figcaption{
+    color: #909090;
+    font-size:0.9em;
+}
+.quote-by{
+    border-bottom: solid 1px grey;
+     width: 3px;
+    }
 .ads{
     background: rgb(214, 207, 207);
-    height: 50px;
+    height: 110px;
+}
+.article-version {
+    margin: 2em;
+    font-size: 0.9em;
+    color: #909090;
+}
+.article-version a{
+    text-decoration: none;
+}
+.social-share-footer li {
+    list-style: none;
+    display: inline;
+}
+.social-share-footer{
+    display: flex;
+    justify-content: space-around;
 }
 .read-comments{
     text-transform: uppercase;
