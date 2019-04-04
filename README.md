@@ -36,7 +36,7 @@ The demo page can be found [HERE](https://raw.githack.com/xarrijorge/nytimes_art
 ## Contributing
 
 1. Fork it https://github.com/xarrijorge/nytimes_article/fork)
-2. Create your feature branch (git checkout -b feature/[choose-a-name])
+2. Create your feature(dev) branch (git checkout -b feature/[choose-a-name])
 3. Commit your changes (git commit -m 'What this commit will fix/add')
 4. Push to the branch (git push origin feature/[chosen name])
 5. Create a new Pull Request

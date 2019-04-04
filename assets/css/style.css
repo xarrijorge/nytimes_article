@@ -46,7 +46,7 @@ button:hover{
 }
 
 .nyc-brand-logo{
-
+    border:solid 1px;
 }
 .menu-brand-left li{
     list-style: none;
@@ -73,7 +73,6 @@ button:hover{
 
 .section-with-sidebar{
     display: grid;
-    /* justify-content: center; */
     width: 70%;
     margin: 0 auto;
     grid-template-columns: 20% 60% 20%;
@@ -83,7 +82,6 @@ button:hover{
 .inner-content{
     width:90%;
     margin: 0 5% 0 -8%;
-    /* border: 2px solid red; */
 }
 .inner-content .all-sections{
   width: 100%;
