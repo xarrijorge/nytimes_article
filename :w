@@ -257,17 +257,14 @@ footer ul {
   display: inline;
   padding: 5px;
 }
-.fas, .fa, .fab{
+.social-share span{
   border-radius: 50%;
+  display: block;
   background: #e6e6e6;
-  width: 30px;
-  height: 30px;
+  width: 100px;
+  height: 100px;
   border:#e6e6e6;
-  text-align: center;
-  padding-top: 8px;
-  font-size: 12px;
 }
-.fa:hover, .fas:hover,.fab:hover{
+span < .fa:hover, span < .fas:hover,span < .fab:hover{
   background: #fff;
-  border: 1px solid gray;
 }
