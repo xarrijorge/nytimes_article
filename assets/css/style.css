@@ -70,10 +70,6 @@ button:hover{
   position: relative; 
   color: #909090;
 }
-.article-details{
-}
-.text-column{
-}
 
 .section-with-sidebar{
     display: grid;
@@ -130,9 +126,7 @@ button:hover{
     line-height: 0.96em;
     padding-left: 4px;
 }
-aside {
 
-}
 .thumbnails {
     width: 50px;
     height: 50px;
