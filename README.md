@@ -27,7 +27,7 @@ $ cd nytimes_article
 
 ## Deployment
 
-The demo page can be found [HERE](https://raw.githack.com/xarrijorge/nytimes_article/dev/index.html/)
+The demo page can be found [HERE](https://raw.githack.com/xarrijorge/nytimes_article/dev/)
 
 ## Contributors
 
