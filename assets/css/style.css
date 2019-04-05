@@ -18,6 +18,7 @@ nav{
     background: #fff;
     z-index: 5000;
     margin-bottom: 20px;
+    top: 0;
 }
 nav img{
   width: 250px;
@@ -108,9 +109,10 @@ button:hover{
   height: 70vh;
  }
 .article-image-description{
-  margin: 0;
-  position: relative; 
   color: #909090;
+}
+.article-details{
+  margin-top: 50px;
 }
 
 .section-with-sidebar{
@@ -261,6 +263,21 @@ iframe{
 .social-share-footer{
   display: flex;
   justify-content: space-around;
+}
+.social-share{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;;
+}
+.social-share div{
+  margin-left: auto;
+}
+.social-share p{
+  font-size: 14px;
+  color: black;
+  font-weight: 200;
+  line-height: 0;
 }
 .read-comments{
   text-transform: uppercase;
