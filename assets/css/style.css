@@ -148,18 +148,21 @@ button:hover{
 .iframe-external img{
   min-width: 100%;
 }
+.iframe-external p {
+  width: 80%;
+}
 .theory-section{
     margin-top:4px;
     margin-bottom: 3em;
-    width: 100%;
+    width: 80%;
 }
+
 figure{
     width: 50%;
     margin: 0 auto;
     display: flex;
     padding: 40px 0   ;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 figcaption{
@@ -171,8 +174,7 @@ figcaption{
 
 .article-image-video{
   width: 100%;
-  /* background: grey; */
-  height: 50vh;
+  height: 60vh;
 }
 iframe{
   height: 100%;
@@ -189,8 +191,14 @@ iframe{
 }
 
 .ads{
-  background:#e6e6e6;; 
+  background:#e2dfdf;; 
   height: 110px;
+  padding: 0.7em;
+  color:#f7f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .article-version {
   margin: 2em;
@@ -232,7 +240,7 @@ footer ul {
 .footer-top-brand{
   display: flex;
   justify-content: space-between;
-  border-top: solid 2px #909090;
+  border-top: double #e0dede;;
   margin:auto;
   width:60%;
   padding: 5px;
@@ -241,7 +249,7 @@ footer ul {
   display: flex;
   margin: auto;
   line-height:0.3em;
-  border-top: solid 1px #909090;
+  border-top: solid 1px #e0dede;
   padding-top: 4px;
   width:60%;
   justify-content: center;
@@ -266,7 +274,7 @@ footer ul {
    font-size: 1em;
 }
 .subscribe{
-  border-left: solid 1px #909090;
+  border-left: solid 1px #e0dede;
   font-size: 12px;
   line-height: 19px;
 }
@@ -287,13 +295,12 @@ svg{
 }
 .footer-copyright ul {
   margin: 0;
-  padding: 0.2em;
+  padding: 0.5em;
   font-size: 9px;
 }
 .footer-copyright a{
     color: #909090;
     padding: 0;
-    /* font-size: 9px; */
 }
 .fas, .fa, .fab{
   border-radius: 50%;
