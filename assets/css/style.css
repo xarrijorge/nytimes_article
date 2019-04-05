@@ -221,7 +221,7 @@ iframe{
 footer{
   display: flex;
   flex-direction: column;
-   margin: auto;
+  margin: 2em auto;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8em;
 }
@@ -232,9 +232,10 @@ footer ul {
 .footer-top-brand{
   display: flex;
   justify-content: space-between;
-  border-top: solid 1px #909090;
-  margin: auto;
+  border-top: solid 2px #909090;
+  margin:auto;
   width:60%;
+  padding: 5px;
 }
 .footer-copyright{
   display: flex;
@@ -243,16 +244,32 @@ footer ul {
   border-top: solid 1px #909090;
   padding-top: 4px;
 }
+.footer-top-brand img{
+  width: 150px;
+}
+.footer-top-brand a {
+  font-size: 10px;
+  color: #5da7e0;
+}
 .footer-navigations{
   display: flex;
   flex-direction: row;
   margin: auto;
+  width:60%;
 }
 
 .subscribe{
   border-left: solid 1px #909090;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 19px;
+}
+svg{
+  width:15px;
+  height: 15px;
+}
+.inner-subscribe-links li a {
+  display:flex;
+  padding: 2px;
 }
 .inner-subscribe-links{
   font-weight:bold;
