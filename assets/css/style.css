@@ -10,7 +10,6 @@
 nav{
   display: flex;
   position:sticky;
-  position: -webkit-sticky;
   padding: 5px 10px;
   justify-content: center;
   align-items: center;
